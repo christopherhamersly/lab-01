@@ -33,6 +33,7 @@ div{
     width: 960px;
     grid-column-start: 1;
     grid-column-end: 4;
+    border: .25px solid black;
     
   }
 
@@ -43,6 +44,7 @@ div{
     line-height: 40;
     width: 200px;
     grid-column-start: 1;
+    border: .25px solid black;
     
   }
 
@@ -52,6 +54,7 @@ div{
     line-height: 12;
     width: 380px;
     grid-column-start: 2;
+    border: .25px solid black;
     
     
   }
@@ -62,6 +65,7 @@ div{
     line-height: 12;
     width: 380px;
     grid-column-start: 4;
+    border: .25px solid black;
   }
 
   div.e {
@@ -73,6 +77,7 @@ div{
     box-orient: inline-axis;
     grid-column-start: 2;
     grid-column-end: 3;
+    border: .25px solid black;
     
    
     
@@ -86,6 +91,7 @@ div{
     width: 190px;
     grid-column-start: 3;
     grid-column-end: 4;
+    border: .25px solid black;
   }
 
   div.g {
@@ -96,6 +102,7 @@ div{
     width: 190px;
     grid-column-start: 4;
     grid-column-end: 5;
+    border: .25px solid black;
   }
 
   div.h {
@@ -104,7 +111,8 @@ div{
     line-height: 15;
     margin: 0;
     width: 190px; 
-    grid-column-start: 5; 
+    grid-column-start: 5;
+    border: .25px solid black; 
   }
 
   div.i {
@@ -113,6 +121,7 @@ div{
     width: 760px;
     line-height: 10;
     grid-column-start: 2;
+    border: .25px solid black;
     
   }
 }
@@ -130,6 +139,7 @@ div{
     height: 75px;
     line-height: 5;
     width: 480px;
+    border: .25px solid black;
   }
 
   div.b {
@@ -137,6 +147,8 @@ div{
     height: 150px;
     line-height: 10;
     width: 480px;
+    border: .25px solid black;
+    
   }
 
   div.c{
@@ -144,6 +156,8 @@ div{
     height: 125px;
     line-height: 8;
     width: 480px;
+    border: .25px solid black;
+    
   }
 
   div.d{
@@ -151,6 +165,7 @@ div{
     height: 125px;
     line-height: 8;
     width: 480px;
+    border: .25px solid black;
   }
 
   div.e {
@@ -158,6 +173,7 @@ div{
     height:250px;
     line-height: 15;
     width: 240px;
+    border: .25px solid black;
   }
 
   div.f {
@@ -165,6 +181,7 @@ div{
     height:250px;
     line-height: 15;
     width: 240px;
+    border: .25px solid black;
   }
 
   div.g {
@@ -172,6 +189,7 @@ div{
     height:250px;
     line-height: 15;
     width: 240px;
+    border: .25px solid black;
   }
 
   div.h {
@@ -179,6 +197,7 @@ div{
     height:250px;
     line-height: 15;
     width: 240px;
+    border: .25px solid black;
   }
 
   div.i {
@@ -186,92 +205,100 @@ div{
     height: 80px;
     line-height: 5;
     width: 480px;
+    border: .25px solid black;
   }
 }
 
 /* tablet size */
 @media only screen and (min-width:769px) and (max-width:850px){
   div.container{
-    height: 100px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 177px 168px 168px 168px 168px;
+    grid-template-rows: 100px 200px 250px 150px;
   }
-  div{
-    display: inline-block;
-    
-    
-    
-    
-  }
+  
 
   div.a {
     background-color: rgb(224, 109, 109);
     height: 100px;
-    line-height: 5;
-    width: 960px;
+    line-height: 100px;
+    width: 849px;
+    border: .25px solid black;
   }
 
   div.b {
     background-color: rgb(75, 233, 75);
-    float: left;
     height: 600px;
-    line-height: 40;
+    line-height: 600px;
     width: 200px;
+    grid-column-start: 1;
+    border: .25px solid black;
+    
+
   }
 
   div.c{
     background-color: rgb(199, 98, 199);
     height: 200px;
-    line-height: 12;
-    width: 380px;
-    
+    line-height: 200px;
+    width: 336px;
+    grid-column-start: 2;
+    border: .25px solid black;
   }
 
   div.d{
     background-color: rgb(83, 71, 2);
     height: 200px;
-    line-height: 12;
-    width: 380px;
+    line-height: 200px;
+    width: 336px;
+    grid-column-start: 4;
+    border: .25px solid black;
   }
 
   div.e {
     background-color: rgb(3, 95, 23);
     height: 250px;
     margin: 0;
-    line-height: 15;
-    width: 190px;
+    line-height: 250px;
+    width: 168px;
+    grid-column-start: 2;
+    border: .25px solid black;
   }
 
   div.f {
     background-color: rgb(2, 109, 86);
     height: 250px;
-    line-height: 15;
+    line-height: 250px;
     margin: 0;
-    width: 190px;
+    width: 168px;
+    border: .25px solid black;
   }
 
   div.g {
     background-color: rgb(59, 2, 92);
     height: 250px;
-    line-height: 15;
+    line-height: 250px;
     margin: 0;
-    width: 190px;
+    width: 168px;
+    border: .25px solid black;
   }
 
   div.h {
     background-color: rgb(31, 133, 5);
     height: 250px;
-    line-height: 15;
+    line-height: 250px;
     margin: 0;
-    width: 190px;  
+    width: 168px;
+    border: .25px solid black;  
   }
 
   div.i {
     background-color: rgb(226, 30, 69);
     height: 150px;
-    width: 760px;
-    line-height: 10;
+    width: 672px;
+    line-height: 150px;
+    grid-column-start:2
+    border: .25px solid black;
   }
 }
 
